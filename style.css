@@ -76,4 +76,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  border: 1px solid #313131;
+  transition: transform 0.5s;
+}
+
+.password:hover {
+  transform: scale(1.05);
 }
