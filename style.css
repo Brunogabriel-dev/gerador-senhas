@@ -84,3 +84,7 @@ body{
 .password:hover {
   transform: scale(1.05);
 }
+
+.tooltip {
+  color: #fff;
+}
