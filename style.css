@@ -96,5 +96,15 @@ body{
   border-radius: 6px;
   visibility: hidden;
   opacity: 0;
-  transition: all;
+  transition: all 0.5s ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.container-password:hover .tooltip {
+  visibility: visible;
+  bottom: 50px;
+  opacity: 1;
 }
