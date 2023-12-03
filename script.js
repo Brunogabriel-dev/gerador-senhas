@@ -11,3 +11,7 @@ let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@";
 let novaSenha = "";
 
 sizePassword.innerHTML =sliderElement.value;
+
+slider.oninput = function(){
+  sizePassword.innerHTML = this.value;
+}
